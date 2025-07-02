@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "type": "module",
+  "scripts": {
+    "build": "copy . dist --recursive",
+    "deploy": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "copy": "^0.3.2"
+  }
+}
